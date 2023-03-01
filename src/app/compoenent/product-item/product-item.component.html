@@ -1,0 +1,27 @@
+<div class="item__container">
+  <a routerLink="product/{{ productItem.id }}" routerLinkActive="active">
+    <img
+      src="{{ productItem.url }}"
+      alt="{{ productItem.name }}"
+      class="product-img"
+    />
+  </a>
+  <div class="item-detail">
+    <b>{{ productItem.name }}</b>
+  </div>
+  <div class="item-detail">$ {{ productItem.price }}</div>
+
+  <form (ngSubmit)="addItemToCart(productItem)">
+    <select
+      name="cart-item"
+      [(ngModel)]="itemSelected"
+      class="item-detail selectForm"
+      (ngModelChange)="valueSelected($event)"
+    >
+      <option *ngFor="let value of counter" value="{{ value }}">
+        {{ value }}
+      </option>
+    </select>
+    <button type="submit">Add to Cart</button>
+  </form>
+</div>

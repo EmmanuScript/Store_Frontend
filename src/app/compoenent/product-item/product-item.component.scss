@@ -1,0 +1,36 @@
+.item__container {
+    
+    .product-img {
+        width: 18rem;
+        margin: auto;
+        display: block;
+        border: 1px solid black;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .item-detail {
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+    select {
+        width: 6rem;
+        padding: 6px;
+        border-radius: 5px;
+        margin: auto;
+        display: block;
+        margin-bottom: 5px;
+    }
+    input {
+        margin-left: 5px;
+        margin: auto;
+        display: block;
+    }
+    button{
+        margin-left: 5px;
+        margin: auto;
+        display: block;
+        border-radius: 5px;
+        width: 100px;
+        height: 30px;
+    }
+}

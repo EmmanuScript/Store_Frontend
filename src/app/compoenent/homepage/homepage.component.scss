@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contain {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: auto;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+#footer{
+    position: relative;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 40px;
+    margin-top: 50px;
+}
+
+#header-image{
+    display: flex;
+    flex-direction: row;
+    border: 10px solid blue;
+    border-radius: 10px;
+    margin: 20px 20px;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.head h4{
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 200px;
+}
+
+.head p{
+    text-align: center;
+    font-family: cursive;
+}
+
+#review{
+    border: 2px solid black;
+    margin: 10px 20px;
+    background-color: rgba($color: #fff, $alpha: 0.3)
+
+}
+
+#review-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+#review h5{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.box{
+    border: 1px solid blue;
+    margin: 2px 40px;
+    padding: 2px;
+    height: 200px;
+    width: 200px;
+}
+
+.box h6{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

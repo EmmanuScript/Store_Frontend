@@ -1,8 +1,14 @@
 # EmmanuelStore2
 
+## Description
+
+This is the front end of an app that serves as the front end of a store. Where customers can log on and order for items. Once the order is added to cart, Customer can go to the cart and complte order, or remove any order they no longer want in teh cart
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
 
 ## Development server
+
+Uncompress file, run `npm i` to install all the needed node modules
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
